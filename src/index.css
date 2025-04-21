@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login{
+
+   border: 2px solid rgb(247, 243, 243);
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+  background-color:transparent;
+}
+.inp{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 35px;
+}
+.btn1{
+    width: 100px;
+   height:35px; 
+   background-color: rgb(195, 101, 238);
+   margin: 10px
+ 
+}
+
+.loginCard{
+background-image: url('https://tse1.mm.bing.net/th?id=OIP.Q1fAQyUViwG1BtByUrpY2AHaF7&pid=Api&P=0&h=180');
+}
+.register{
+    width:  300px;
+    height: 350px;
+    border-radius: 10px;
+}
+.registerInp{
+    background-color: transparent;
+    border: 1px solid gray;
+}
+.inp{
+    width: 80%;
+    background-color: white;
+    border: 1px solid black;
+}
