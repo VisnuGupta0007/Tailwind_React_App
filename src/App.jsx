@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from './Footer'
-import Login from './Login'
-import Register from './Register'
-import Contact from './Contact'
+import Login from './Documentation/Login'
+import Register from './Documentation/Register'
+import Contact from './Documentation/Contact'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './About'
-import Home from './Home'
-import Card from './Card'
-import Card2 from './Card2'
+import Home from './Nav'
+import Card from './Cards/Card'
+import Card2 from './Cards/Card2'
+import Card3 from './Cards/Card3'
 
 
 
@@ -22,24 +23,17 @@ function App() {
 
       <BrowserRouter>
         <Home />
-
-
         <Routes>
-
-          <Route path='/Home' element={<Card />} />
-          {/* <Route path='/' element={<Card2 />} /> */}
+          <Route path='/' element={<Card />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Register' element={<Register />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/About' element={<About />} />
           <Route path='/dynamic/:id' element={<Contact />} />
-          
-
         </Routes>
-        <Card2/>
-
+        <Card2 />
+        <Card3/>
         <Footer />
-
       </BrowserRouter>
     </>
 
