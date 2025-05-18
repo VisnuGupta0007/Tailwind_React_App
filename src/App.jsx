@@ -7,8 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './About'
 import Home from './Nav'
 import Card from './Cards/Card'
-import Card2 from './Cards/Card2'
-import Card3 from './Cards/Card3'
+
 
 
 
@@ -31,8 +30,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/dynamic/:id' element={<Contact />} />
         </Routes>
-        <Card2 />
-        <Card3/>
+    
         <Footer />
       </BrowserRouter>
     </>
